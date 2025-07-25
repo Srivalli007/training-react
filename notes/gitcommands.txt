@@ -1,0 +1,22 @@
+# Connect the github repo to your local codebase ::
+> git init
+> git remote add (repo url)
+
+# If its 1st time ::
+> git add .
+> git commit -m "<message>"
+> git push --set-upstream origin main
+
+# If its not 1st time :: 
+> git add .
+> git commit -m "<message>"
+> git push 
+
+# Pull the latest code from github ::
+> git pull
+
+# Check if the codebase is pointing to the right repo
+> git remote -v
+
+# I dont have a codebase, I want to download it from github
+> git clone <repo url> 
