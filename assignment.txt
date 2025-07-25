@@ -1,0 +1,27 @@
+## TODO APP
+1. No AI | install & integrate shadcn/ui 
+2. No AI | Design a simple auth page irrespective of apis / mock data
+3. Use AI | Build a simple Todo page that is persistant with local storage
+
+## Routes
+1. Login Page ("/login")
+2. Todo List ("/")
+
+## Conditions
+1. User should not be able to access "/" without loggin in.
+
+--------------------
+
+What concepts will I learn after this?
+- State Management
+- Use of Local Storage
+- Installing & Integrating 3rd party libraries
+- React Routing
+- UI Designing
+- Prompting
+
+What libraries will I be using? 
+- Vite + React (vite.dev)
+- shadcn (ui.shadcn.com)
+- Tailwind (https://tailwindcss.com/)
+- Lucide Icons Pack (lucide.dev)
