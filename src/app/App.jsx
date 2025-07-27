@@ -1,20 +1,29 @@
 import { useState } from 'react'
 import reactLogo from '../assets/react.svg'
-
 import viteLogo from '/vite.svg'
 import { Button } from "../components/ui/button";
 
 function App() {
-  const [count, setCount] = useState(0) // <- states
+  const [count, setCount] = useState(0)
 
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center">
       <div className="max-w-4xl mx-auto p-8 text-center">
         <div className="flex justify-center space-x-8 mb-8">
-          <a href="https://vite.dev" target="_blank" className="hover:scale-110 transition-transform">
+          <a
+            href="https://vite.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:scale-110 transition-transform"
+          >
             <img src={viteLogo} className="h-24 w-24" alt="Vite logo" />
           </a>
-          <a href="https://react.dev" target="_blank" className="hover:scale-110 transition-transform">
+          <a
+            href="https://react.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:scale-110 transition-transform"
+          >
             <img src={reactLogo} className="h-24 w-24 animate-spin-slow" alt="React logo" />
           </a>
         </div>
