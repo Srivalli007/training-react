@@ -5,6 +5,7 @@ import './index.css';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import Login from './pages/login.jsx';
+import Signup from './pages/signup.jsx';
 import Todo from './pages/Todo.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
 import { AuthProvider } from './context/AuthContext.jsx';
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <HashRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
           <Route
             path="/"
             element={
